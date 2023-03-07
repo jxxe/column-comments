@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+    a { @apply underline text-blue-500; }
+    em, i { @apply underline text-blue-500; }
+    pre { @apply font-mono overflow-x-scroll; }
+}
